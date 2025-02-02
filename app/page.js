@@ -1,5 +1,5 @@
 'use client'
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Internship from "./components/Internship";
