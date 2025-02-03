@@ -39,14 +39,14 @@ const About = ({isDarkMode})=> {
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
                 transition={{duration:0.6,delay:0.8}}>
-                <p className='mb-10 max-w-2xl font-Ovo'>
+                <p className='mb-10 max-w-2xl font-Ovo   p-8 lg:p-0'>
                     A passionate MERN stack developer who loves building scalable web apps and solving complex problems with C, C++, and Java. I occasionally debug code at 3 AM—because that’s when the bugs fear me the most. I continuously explore new technologies to craft efficient solutions.
                     <br/>
                     <br />
                     ⚡ Open to internships, remote work, full time and collaborations!
                 </p>
 
-                <motion.ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'
+                <motion.ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl  p-8 lg:p-0 '
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
                     transition={{duration:0.8,delay:1}}>
@@ -60,14 +60,14 @@ const About = ({isDarkMode})=> {
                     ))}
                 </motion.ul>
 
-                <motion.h4 className='my-6 text-gray-700 font-Ovo  dark:text-white/80'
+                <motion.h4 className='my-6 text-gray-700 font-Ovo  dark:text-white/80   lg:ml-0 ml-8'
                     initial={{y:20,opacity:0}}
                     whileInView={{opacity:1,y:0}}
                     transition={{duration:0.5,delay:1.3}}>
                     Tools I use
                 </motion.h4>
 
-                <motion.ul className='flex items-center gap-3 sm:gap-5'
+                <motion.ul className='flex items-center gap-3 sm:gap-5   lg:ml-0 ml-8'
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
                     transition={{duration:0.6,delay:1.5}}>

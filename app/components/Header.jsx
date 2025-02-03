@@ -36,14 +36,14 @@ function Header() {
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-            <motion.a href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
+            <motion.a href="#contact" className='lg:px-10 px-6 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
                 initial={{y:30,opacity:0}}
                 whileInView={{y:0,opacity:1}}
                 transition={{duration:0.6,delay:1}}>
                 contact Me <Image src={assets.right_arrow_white} alt='' className='w-4'/>
             </motion.a>
 
-            <motion.a href="/resume_harshvardhan_parwal.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white  dark:text-black'
+            <motion.a href="/resume_harshvardhan_parwal.pdf" download className='lg:px-10 px-6 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white  dark:text-black'
                 initial={{y:30,opacity:0}}
                 whileInView={{y:0,opacity:1}}
                 transition={{duration:0.6,delay:1.2}}>

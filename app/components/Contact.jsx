@@ -81,7 +81,7 @@ function Contact() {
               transition={{duration:0.6,delay:1.3}}>
             </motion.textarea>
             
-            <motion.button type='submit' className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover'
+            <motion.button type='submit' className='py-3 lg:px-8 px-6 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover'
                 whileHover={{scale:1.05}}
                 transition={{duration:0.3}}>
                 Send message <Image src={assets.right_arrow_white} alt='' className='w-4'/>

@@ -46,7 +46,7 @@ const Internship = () => {
       </motion.h2>
 
       <motion.div
-        className="max-w-3xl mx-auto flex flex-col gap-10"
+        className="max-w-3xl mx-auto flex flex-col gap-10   lg:p-0 p-0"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -54,23 +54,29 @@ const Internship = () => {
         {experiences.map((exp, index) => (
           <motion.div
             key={index}
-            className="relative bg-white/90 dark:bg-gray-900 backdrop-blur-xl p-10 rounded-2xl shadow-xl 
+            className="relative bg-white/90 dark:bg-gray-900 backdrop-blur-xl   lg:p-10 p-6   rounded-2xl shadow-xl 
             border border-gray-200 dark:border-gray-800 overflow-hidden transition-all hover:scale-105 duration-300"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
           >
             
-            <motion.div className="absolute -top-0 -right-0 text-white rounded-full p-10 shadow-sm"
+            {/* <motion.div className="absolute -top-0 -right-0 text-white rounded-full p-10 shadow-sm"
               animate={{ rotate: [0, 5, -5, 0] }}
               transition={{ duration: 1, repeat: Infinity, repeatType: "mirror" }}
             >
-               <Image src={assets.tbiLogo} alt="TBI Logo" className="w-8 h-8" />
-            </motion.div>
+               <Image src={assets.tbiLogo} alt="TBI Logo" className="lg:w-8 lg:h-8   w-6 h-6"/>
+            </motion.div> */}
             
             <div className="flex items-center gap-3 mb-3">
-              <Briefcase className="text-blue-500 dark:text-blue-400 w-6 h-6" />
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white font-Ovo">
+              {/* <Briefcase className="text-blue-500 dark:text-blue-400 w-6 h-6" /> */}
+              <motion.div className="absolute -top-0 -left-0 text-white rounded-full lg:p-8 p-6 shadow-sm "
+                animate={{ rotate: [0, 5, -5, 0] }}
+                transition={{ duration: 1, repeat: Infinity, repeatType: "mirror" }}
+              >
+                <Image src={assets.tbiLogo} alt="TBI Logo" className="w-6 h-6    lg:ml-1 lg:mt-2"/>
+              </motion.div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white font-Ovo    lg:ml-8 ml-10 mb-1">
                 {exp.role}
               </h3>
             </div>
