@@ -49,7 +49,7 @@ const Work=({isDarkMode})=> {
                     <div className="bg-white/80 backdrop-blur-lg w-10/12 rounded-lg absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7 border-2 border-transparent bg-clip-padding
                     before:content-[''] before:absolute before:inset-0 before:rounded-lg before:border-[3px] before:border-blue-200 before:group-hover:border-pink-200 before:-z-10 shadow-lg">
             
-                    <div>
+                    <div className='p-0'>
                         <h2 className="font-semibold text-black group-hover:text-blue-500 transition">{project.title}</h2>
                         <p className="text-sm text-gray-700">{project.description}</p>
                     </div>
