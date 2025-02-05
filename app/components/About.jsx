@@ -35,18 +35,18 @@ const About = ({isDarkMode})=> {
                 <Image src={assets.sideImg} alt='user' className='w-full rounded-3xl'/>
             </motion.div>
 
-            <motion.div className='flex flex-col   p-0 flex-1'
+            <motion.div className='max-w-3xl     lg:p-0 px-10 '
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
                 transition={{duration:0.6,delay:0.8}}>
-                <p className='mb-10 max-w-2xl font-Ovo   lg:mx-0 mx-9 lg:p-0'>
+                <p className='flex items-center mb-10 max-w-2xl font-Ovo   lg:mx-0 mx-12'>
                     A passionate MERN stack developer who loves building scalable web apps and solving complex problems with C, C++, and Java. I occasionally debug code at 3 AM—because that’s when the bugs fear me the most. I continuously explore new technologies to craft efficient solutions.
                     <br/>
                     <br />
                     ⚡ Open to internships, remote work, full time and collaborations!
                 </p>
 
-                <motion.ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl lg:p-0 p-8'
+                <motion.ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl   lg:p-0 p-8'
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
                     transition={{duration:0.8,delay:1}}>
@@ -60,14 +60,14 @@ const About = ({isDarkMode})=> {
                     ))}
                 </motion.ul>
 
-                <motion.h4 className='my-6 text-gray-700 font-Ovo  dark:text-white/80   lg:mx-0 mx-9'
+                <motion.h4 className='my-6 text-gray-700 font-Ovo dark:text-white/80   lg:mx-0 mx-10'
                     initial={{y:20,opacity:0}}
                     whileInView={{opacity:1,y:0}}
                     transition={{duration:0.5,delay:1.3}}>
                     Tools I use
                 </motion.h4>
 
-                <motion.ul className='flex items-center lg:gap-3 gap-3    lg:mx-0 mx-8'
+                <motion.ul className='flex items-center  gap-3    lg:mx-0 mx-10'
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
                     transition={{duration:0.6,delay:1.5}}>
