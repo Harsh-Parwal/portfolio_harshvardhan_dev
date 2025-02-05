@@ -39,7 +39,7 @@ const About = ({isDarkMode})=> {
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
                 transition={{duration:0.6,delay:0.8}}>
-                <p className='mb-10 max-w-2xl font-Ovo   p-10 lg:p-0'>
+                <p className='mb-10 max-w-2xl font-Ovo   mx-10 lg:p-0'>
                     A passionate MERN stack developer who loves building scalable web apps and solving complex problems with C, C++, and Java. I occasionally debug code at 3 AM—because that’s when the bugs fear me the most. I continuously explore new technologies to craft efficient solutions.
                     <br/>
                     <br />
