@@ -46,7 +46,7 @@ const Internship = () => {
       </motion.h2>
 
       <motion.div
-        className="max-w-3xl mx-auto flex flex-col gap-10   p-0"
+        className="max-w-3xl mx-auto flex flex-col gap-10    p-0"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
