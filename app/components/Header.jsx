@@ -60,7 +60,7 @@ const Header = () => {
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}>
-          <Image src={assets.profileImg} alt='' className='rounded-full w-24 lg:w-32 lg:mt-14 mt-8' />
+          <Image src={assets.profileImg} alt='' className='rounded-full w-24 lg:w-32 lg:mt-14 mt-6' />
         </motion.div>
   
         <motion.h3 className='flex items-end gap-2 text-lg lg:text-2xl mb-3 font-Ovo'
