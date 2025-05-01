@@ -46,7 +46,7 @@ const About = ({ isDarkMode }) => {
               A passionate MERN stack developer who loves building scalable web apps and solving complex problems with C, C++, and Java. I occasionally debug code at 3 AM—because that’s when the bugs fear me the most. I continuously explore new technologies to craft efficient solutions.
               <br />
               <br />
-              ⚡ Open to internships, remote work, full time and collaborations!
+              ⚡ Open to remote work, full time work and collaborations!
             </p>
   
             <motion.ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 max-w-2xl p-5 lg:p-0'

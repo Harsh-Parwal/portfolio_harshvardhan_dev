@@ -28,7 +28,7 @@ const Work=({isDarkMode})=> {
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration:0.5,delay:0.7}}>
-            Explore a collection of projects showcasing my expertise in full-stack development.
+            Explore a collection of projects showcasing my skills in full-stack development.
         </motion.p>
 
         <motion.div className='grid grid-cols-auto lg:grid-cols-3 my-10 gap-6 dark:text-black'

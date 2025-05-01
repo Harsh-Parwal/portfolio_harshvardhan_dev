@@ -13,12 +13,12 @@ const Internship = () => {
       duration: "July 2024 - Oct 2024",
       technologies: ["React.js", "Node.js", "Express.js", "Bootstrap5","MongoDB", "MaterialUI"],
       contributions: [
-        "Designed and deployed robust RESTful APIs for secure authentication and efficient data retrieval, improving response time by 20%.",
+        "Built reusable front-end components in ReactJS and NextJS, improving applications’ modularity and responsiveness.",
         "Engineered real-time bidirectional communication using Socket.io, enabling seamless live updates and enhanced user collaboration.",
-        "Developed and optimized Finance-Tracker, a MERN stack web app featuring dynamic graphical analysis via AntDesign.",
+        "Collaborated with a team of 4 in an Agile environment to implement RESTful API using NodeJs and Express, ensuring flawless data flow between the frontend and backend.",
         "Enhanced platform tools for IMExchange, an AI-driven commercial shipping startup, optimizing logistics workflows and reducing operational inefficiencies.",
         "Integrated AI-powered chat-to-document generation and enabling real-time cloud-based storage with Firebase.",
-        "Collaborated in an agile team, actively participating in sprint planning, version control (Git), and peer code reviews to drive high-quality development.",
+        "Integrated the front-end with Material-UI and AntDesign components, reducing development time my 30% through reusable design elements.",
       ],
     },
   ];
@@ -61,13 +61,6 @@ const Internship = () => {
             transition={{ duration: 0.6, delay: index * 0.2 }}
           >
             
-            {/* <motion.div className="absolute -top-0 -right-0 text-white rounded-full p-10 shadow-sm"
-              animate={{ rotate: [0, 5, -5, 0] }}
-              transition={{ duration: 1, repeat: Infinity, repeatType: "mirror" }}
-            >
-               <Image src={assets.tbiLogo} alt="TBI Logo" className="lg:w-8 lg:h-8   w-6 h-6"/>
-            </motion.div> */}
-            
             <div className="flex items-center gap-3 mb-3">
               {/* <Briefcase className="text-blue-500 dark:text-blue-400 w-6 h-6" /> */}
               <motion.div className="absolute -top-0 -left-0 text-white rounded-full lg:p-8 p-6 shadow-sm "
@@ -93,13 +86,6 @@ const Internship = () => {
                 </motion.li>
               ))}
             </ul>
-
-            {/* <button
-              className="mt-4 text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 text-sm font-semibold underline"
-              onClick={() => alert("Redirect to detailed page")}
-            >
-              View More →
-            </button> */}
 
             <div className="flex items-center gap-3 mt-5">
               <Code className="text-gray-600 dark:text-gray-400 w-5 h-5" />
