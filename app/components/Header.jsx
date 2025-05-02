@@ -18,7 +18,7 @@ const Header = () => {
           initial={{ y: -20, opacity: 0 }}
           whileInView={{ y: 1, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.3 }}>
-          Hi! I'm Harshvardhan Parwal <Image src={assets.hand_icon} alt='' className='w-5 lg:w-6' />
+          Hi! I'm Harshvardhan S. Parwal <Image src={assets.hand_icon} alt='' className='w-5 lg:w-6' />
         </motion.h3>
   
         <motion.h1 className='text-2xl sm:text-5xl lg:text-[66px] font-Ovo'
